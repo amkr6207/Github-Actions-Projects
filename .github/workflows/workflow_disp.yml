@@ -1,0 +1,10 @@
+name: Workflow_disp Testing
+
+on:
+  workflow_dispatch:
+    inputs:
+      release-tag:
+        type: string
+        required: true
+        default: v0.x.x
+        
